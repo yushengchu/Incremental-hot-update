@@ -1,0 +1,3 @@
+rootProject.name = 'hotUpdataDemo'
+
+include ':app'
