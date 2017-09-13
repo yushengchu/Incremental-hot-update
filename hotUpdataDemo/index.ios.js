@@ -23,8 +23,7 @@ export default class hotUpdataDemo extends Component {
       <View style={styles.container}>
         <Image source={require('./app/assest/346736.jpg')}
                style={{width:SCREEN_WIDTH,height:SCREEN_HEIGHT,justifyContent:'center',alignItems:'center'}}>
-          <Text>热更新后----------></Text>
-          <Image source={require('./app/assest/shipo.png')} style={{width:100,height:100,marginTop:20}}/>
+          <Text>热更新前----------></Text>
         </Image>
       </View>
     );

@@ -22,9 +22,9 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		F30062BF1F5D73C30089905B /* bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = F30062BE1F5D73C30089905B /* bundle.zip */; };
 		F300634D1F5D7A110089905B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F300634C1F5D7A110089905B /* libz.tbd */; };
 		F3085D361F57C1E400E8956C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3085D351F57C1E400E8956C /* libbz2.tbd */; };
+		F38409961F69533E00095412 /* bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = F38409951F69533E00095412 /* bundle.zip */; };
 		F3EC83BF1F61404E0011D0CA /* bsdiff.c in Sources */ = {isa = PBXBuildFile; fileRef = F3EC83941F61404E0011D0CA /* bsdiff.c */; };
 		F3EC83C01F61404E0011D0CA /* bspatch.c in Sources */ = {isa = PBXBuildFile; fileRef = F3EC83961F61404E0011D0CA /* bspatch.c */; };
 		F3EC83C11F61404E0011D0CA /* DiffPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EC83991F61404E0011D0CA /* DiffPatch.m */; };
@@ -273,9 +273,9 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		F30062BE1F5D73C30089905B /* bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = bundle.zip; path = hotUpdataDemo/bundle.zip; sourceTree = "<group>"; };
 		F300634C1F5D7A110089905B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F3085D351F57C1E400E8956C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F38409951F69533E00095412 /* bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bundle.zip; sourceTree = "<group>"; };
 		F3EC83941F61404E0011D0CA /* bsdiff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bsdiff.c; sourceTree = "<group>"; };
 		F3EC83951F61404E0011D0CA /* bsdiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bsdiff.h; sourceTree = "<group>"; };
 		F3EC83961F61404E0011D0CA /* bspatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bspatch.c; sourceTree = "<group>"; };
@@ -424,8 +424,8 @@
 		13B07FAE1A68108700A75B9A /* hotUpdataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F38409951F69533E00095412 /* bundle.zip */,
 				F3EC83741F61402A0011D0CA /* hotUpdata */,
-				F30062BE1F5D73C30089905B /* bundle.zip */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -930,8 +930,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EC83CB1F61404E0011D0CA /* Info.plist in Resources */,
+				F38409961F69533E00095412 /* bundle.zip in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				F30062BF1F5D73C30089905B /* bundle.zip in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
